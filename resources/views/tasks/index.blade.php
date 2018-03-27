@@ -9,9 +9,9 @@
             <thead>
                 <tr>
                     <th>id</th>
-                    <th>ユーザー名</th>
+                    <th>status</th>
                     <th>タイトル</th>
-                    <th>メッセージ</th>
+                    <th>内容</th>
                 </tr>
             </thead>
             <tbody>

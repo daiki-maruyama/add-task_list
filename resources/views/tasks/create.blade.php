@@ -9,7 +9,7 @@
             {!! Form::model($task, ['route' => 'tasks.store']) !!}
             
                 <div class="form-group">
-                    {!! Form::label('status', 'ユーザー名') !!}
+                    {!! Form::label('status', 'status') !!}
                     {!! Form::text('status', null, ['class' => 'form-control']) !!}
                 </div>
             
@@ -19,7 +19,7 @@
                 </div>
                     
                 <div class="form-group">
-                    {!! Form::label('content', 'メッセージ') !!}
+                    {!! Form::label('content', '内容') !!}
                     {!! Form::text('content', null, ['class' => 'form-control']) !!}
                 </div>
                 
